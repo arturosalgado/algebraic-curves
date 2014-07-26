@@ -1,0 +1,13 @@
+function m = sylvester(f,g) 
+
+n = length (f)
+m = length ()
+
+
+m=zeros(n,n)
+m = sym(m);
+for i=1:n
+    for j=1:n
+       m(i,j)= sym(f(i));
+    end
+end

@@ -1,0 +1,84 @@
+ezplot('t^2+2*t-1','t^2-t-1',[-20,20])
+ezplot('3/2+x+3/2*sqrt(5+4*x), 3/2+x-3/2*sqrt(5+4*x)',[-20,20])
+??? Error using ==> inlineeval
+Error in inline expression ==> 3./2+x+3./2.*sqrt(5+4.*x), 3./2+x-3./2.*sqrt(5+4.*x)
+??? Error: "End of Input" expected, "numeric value" found.
+
+Error in ==> C:\MATLAB6p5\toolbox\matlab\funfun\@inline\feval.m
+On line 34  ==>         INLINE_OUT_ = inlineeval(INLINE_INPUTS_, INLINE_OBJ_.inputExpr, INLINE_OBJ_.expr);
+
+Error in ==> C:\MATLAB6p5\toolbox\matlab\specgraph\ezplot.m (ezplot1)
+On line 377  ==> y = feval(f,x);
+
+Error in ==> C:\MATLAB6p5\toolbox\matlab\specgraph\ezplot.m
+On line 124  ==>          ezplot1(f{1},vars,labels,varargin{:});
+
+ezplot('3/2+x+3/2*sqrt(5+4*x)',[-20,20])
+ezplot('y^2-2*x*y+x^2-3*y-9-6*x',[-20,400])
+ezplot('t^2+2*t-1','t^2-t-1',[-20,20])
+a = sym(a);
+??? Undefined function or variable 'a'.
+
+a = sym('a');
+a
+a =
+a
+b = sym('b')
+b =
+b
+f = a*b
+f =
+a*b
+f = a*b
+f =
+a*b
+a=5
+a =
+     5
+b=4
+b =
+     4
+f = a*b
+f =
+    20
+a= sym('a' )
+a =
+a
+b=4
+b =
+     4
+m = [a b; b a]
+m =
+[ a, 4]
+[ 4, a]
+b = sym('b')
+b =
+b
+m = [a b; b a]
+m =
+[ a, b]
+[ b, a]
+d = det(m)
+d =
+a^2-b^2
+m= zeros 
+m =
+     0
+m= zeros(2,2)
+m =
+     0     0
+     0     0
+m(1,1)=a
+??? Conversion to double from sym is not possible.
+
+m[1,1]=a
+??? m[1,1]=a
+     |
+Error: Missing operator, comma, or semicolon.
+
+m[1,1]=a;
+??? m[1,1]=a;
+     |
+Error: Missing operator, comma, or semicolon.
+
+exit

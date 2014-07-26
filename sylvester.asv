@@ -1,0 +1,40 @@
+function sylvester_matrix = sylvester(f,g) 
+
+n = length(f);
+m = length(g);
+
+mm = zeros(m+n,m+n);
+
+mm = sym(mm);
+
+% transform the coefficients into 
+% symbolic 
+
+fs = size(n);
+fs = sym(fs);
+
+    for i=1 : n
+        fs(i)=sym(f(i));
+    end
+    
+gs = size(m);    
+gs = sym(gs);
+
+    for j=1:m
+        gs(j)=sym(g(j));
+    end
+% once the coefficients are symbolic create the matrix
+
+  for i=1:m 
+    
+       mm(i,i:i+m-1)=f(1,:)
+       
+  end
+   
+ for 
+  
+  
+  fs  
+    
+
+

@@ -1,0 +1,23 @@
+function p = functionpq(f)
+
+% computes p(x,t)
+
+syms x t d result 
+
+m = length (f)
+p = size(m);
+p = sym(p);
+
+    for i=1:m
+    
+      p(i)=(f(i)*x-d)*t^(i);
+        
+    end
+
+    result=
+    
+    for i=1:m
+        
+
+        
+    end

@@ -1,0 +1,677 @@
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+ejemplo7
+Current plot held
+??? Undefined function or variable 'Bezout_shorthand_2_'.
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\double.m
+On line 45  ==> D = reshape(eval(X),m,n);
+
+Error in ==> C:\MATLAB6p5\work\mapleresultant.m
+On line 69  ==> f4 = double(map2sym(maple('resultantHiddenVarMaxDeg',maplevar)));
+
+Error in ==> C:\MATLAB6p5\work\BEZOUT2.M
+On line 21  ==> y=solveresultant(mapleresultant('Bezout_shorthand_2_'));
+
+Error in ==> C:\MATLAB6p5\work\ejemplo7.m
+On line 10  ==> bezout2('y - x*x', ' x*x + y*y - 1', 'x', 'y')
+
+fschange('C:\MATLAB6p5\work\BEZOUT2.M');
+ejemplo7
+Current plot released
+arturo de los angeles 1
+??? Undefined function or variable 'Bezout_shorthand_2_'.
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\double.m
+On line 45  ==> D = reshape(eval(X),m,n);
+
+Error in ==> C:\MATLAB6p5\work\mapleresultant.m
+On line 69  ==> f4 = double(map2sym(maple('resultantHiddenVarMaxDeg',maplevar)));
+
+Error in ==> C:\MATLAB6p5\work\BEZOUT2.M
+On line 19  ==> y=solveresultant(mapleresultant('Bezout_shorthand_2_'));
+
+Error in ==> C:\MATLAB6p5\work\ejemplo7.m
+On line 10  ==> bezout2('y - x*x', ' x*x + y*y - 1', 'x', 'y')
+
+ejemplo7
+Current plot held
+arturo de los angeles 1
+Warning: Warning, imaginary unit `i` used as a local variable in procedure Bezout
+Warning: Warning, imaginary unit `i` used as a local variable in procedure extractRatio
+Warning: Warning, imaginary unit `i` used as a local variable in procedure homogeneousArrays
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maxDegreeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtract
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure resultantNumeratorIJ
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateFunctions
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateStruct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantPepperOnesInEmptyRows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtractRatioCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantImplicitizeFunction
+Warning: Warning, `elt` is implicitly declared local to procedure `resultantCCode`
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maximumTotalDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure countElt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure partitionArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure arraylt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure powerProduct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialCoefficient
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure substituteVariables
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sumArray
+Warning: Warning, the name hilbert has been redefined
+Warning: Warning, the name fibonacci has been redefined
+Warning: Warning, the protected name Chi has been redefined and unprotected
+Warning: Warning, the name fibonacci has been redefined
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maximumTotalDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure countElt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure partitionArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure arraylt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure powerProduct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialCoefficient
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure substituteVariables
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sumArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure newtpolylist
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maximumTotalDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure countElt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure partitionArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure arraylt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure powerProduct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialCoefficient
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure substituteVariables
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sumArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure macaulayxdi_i
+Warning: Warning, imaginary unit `i` used as a parameter name
+Warning: Warning, imaginary unit `i` used as a local variable in procedure macaulayxdi
+Warning: Warning, imaginary unit `i` used as a local variable in procedure macaulayValidDenominatorColumn
+Warning: Warning, imaginary unit `i` used as a local variable in procedure macaulayDenominatorColumns
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure macaulayValidDenominatorRow
+Warning: Warning, imaginary unit `i` used as a local variable in procedure macaulayDenominatorRows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure MacaulayOld
+Warning: Warning, imaginary unit `i` used as a local variable in procedure Macaulay
+Warning: Warning, imaginary unit `i` used as a local variable in procedure extractRatio
+Warning: Warning, imaginary unit `i` used as a local variable in procedure homogeneousArrays
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maxDegreeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtract
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure resultantNumeratorIJ
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateFunctions
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateStruct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantPepperOnesInEmptyRows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtractRatioCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantImplicitizeFunction
+Warning: Warning, `elt` is implicitly declared local to procedure `resultantCCode`
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maximumTotalDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure countElt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure partitionArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure arraylt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure powerProduct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialCoefficient
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure substituteVariables
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sumArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure DEBUG2
+Warning: Warning, imaginary unit `i` used as a local variable in procedure minkowskisum
+Warning: Warning, imaginary unit `i` used as a local variable in procedure randlin
+Warning: Warning, imaginary unit `i` used as a local variable in procedure randvect
+Warning: Warning, imaginary unit `i` used as a local variable in procedure make_eqns
+Warning: Warning, imaginary unit `i` used as a local variable in procedure cog
+Warning: Warning, imaginary unit `i` used as a local variable in procedure decode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure compute_rows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure v_order
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sort_verts
+Warning: Warning, imaginary unit `i` used as a local variable in procedure mixed
+Warning: Warning, imaginary unit `i` used as a local variable in procedure verts
+Warning: Warning, imaginary unit `i` used as a local variable in procedure hull
+Warning: Warning, imaginary unit `i` used as a local variable in procedure Sparse
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maximumTotalDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure countElt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure partitionArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure arraylt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure powerProduct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialCoefficient
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure substituteVariables
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sumArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure extractRatio
+Warning: Warning, imaginary unit `i` used as a local variable in procedure homogeneousArrays
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maxDegreeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtract
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure resultantNumeratorIJ
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateFunctions
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateStruct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantPepperOnesInEmptyRows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtractRatioCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantImplicitizeFunction
+Warning: Warning, `elt` is implicitly declared local to procedure `resultantCCode`
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantCCode
+Warning: Warning, the names basis and pivot have been redefined
+Warning: Warning, the protected names maximize and minimize have been redefined and unprotected
+Warning: Warning, the names basis and pivot have been redefined
+Warning: Warning, imaginary unit `i` used as a local variable in procedure newtpolylist
+Warning: Warning, imaginary unit `i` used as a local variable in procedure extractRatio
+Warning: Warning, imaginary unit `i` used as a local variable in procedure homogeneousArrays
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maxDegreeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtract
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure resultantNumeratorIJ
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateFunctions
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateStruct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantPepperOnesInEmptyRows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtractRatioCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantImplicitizeFunction
+Warning: Warning, `elt` is implicitly declared local to procedure `resultantCCode`
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure uResultantComputeUDim
+Warning: Warning, imaginary unit `i` used as a local variable in procedure UResultant
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure macaulayxdi_i
+Warning: Warning, imaginary unit `i` used as a parameter name
+Warning: Warning, imaginary unit `i` used as a local variable in procedure macaulayxdi
+Warning: Warning, imaginary unit `i` used as a local variable in procedure macaulayValidDenominatorColumn
+Warning: Warning, imaginary unit `i` used as a local variable in procedure macaulayDenominatorColumns
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure macaulayValidDenominatorRow
+Warning: Warning, imaginary unit `i` used as a local variable in procedure macaulayDenominatorRows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure MacaulayOld
+Warning: Warning, imaginary unit `i` used as a local variable in procedure Macaulay
+Warning: Warning, imaginary unit `i` used as a local variable in procedure extractRatio
+Warning: Warning, imaginary unit `i` used as a local variable in procedure homogeneousArrays
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maxDegreeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtract
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure resultantNumeratorIJ
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateFunctions
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateStruct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantPepperOnesInEmptyRows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtractRatioCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantImplicitizeFunction
+Warning: Warning, `elt` is implicitly declared local to procedure `resultantCCode`
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maximumTotalDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure countElt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure partitionArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure arraylt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure powerProduct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialCoefficient
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure substituteVariables
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sumArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure homogenizePolynomial
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maximumTotalDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure countElt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure partitionArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure arraylt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure powerProduct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialCoefficient
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure substituteVariables
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sumArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure newtpolylist
+Warning: Warning, imaginary unit `i` used as a local variable in procedure Sylvester
+Warning: Warning, imaginary unit `i` used as a local variable in procedure extractRatio
+Warning: Warning, imaginary unit `i` used as a local variable in procedure homogeneousArrays
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maxDegreeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtract
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure resultantNumeratorIJ
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateFunctions
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantEvaluateStruct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantPepperOnesInEmptyRows
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantExtractRatioCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantImplicitizeFunction
+Warning: Warning, `elt` is implicitly declared local to procedure `resultantCCode`
+Warning: Warning, imaginary unit `i` used as a local variable in procedure resultantCCode
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeMatrix
+Warning: Warning, imaginary unit `i` used as a local variable in procedure typeList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure maximumTotalDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure countElt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure partitionArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure arraylt
+Warning: Warning, imaginary unit `i` used as a local variable in procedure powerProduct
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialDegree
+Warning: Warning, imaginary unit `i` used as a local variable in procedure monomialCoefficient
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandList
+Warning: Warning, imaginary unit `i` used as a local variable in procedure expandArray
+Warning: Warning, imaginary unit `i` used as a parameter name in procedure substituteVariables
+Warning: Warning, imaginary unit `i` used as a local variable in procedure sumArray
+Warning: Warning, imaginary unit `i` used as a local variable in procedure ChangeVar
+Warning: Warning, imaginary unit `i` used as a local variable in procedure ChangeVars
+??? Index exceeds matrix dimensions.
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\sym.m (char2sym)
+On line 481  ==>       sk = x(s(k):e(k));
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\sym.m
+On line 91  ==>    S = char2sym(x);
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\eq.m
+On line 9  ==> B = sym(B);
+
+Error in ==> C:\MATLAB6p5\work\MAP2NUM.M
+On line 21  ==> s = find(mapin == '[') + 1;
+
+Error in ==> C:\MATLAB6p5\work\maplemapcoeff.m
+On line 31  ==>   x = map2num(maple('map','coeff',varargin{1},sym2map(varargin{2}),varargin{3}));
+
+Error in ==> C:\MATLAB6p5\work\mapledecompmatpoly.m
+On line 40  ==> zeromat = maplemapcoeff(maplematrixpolynomial,variable,0);
+
+Error in ==> C:\MATLAB6p5\work\mapleresultant.m
+On line 75  ==> f6matpoly = mapledecompmatpoly(strcat(maplevar,'[5]'), f3, f4, f10);
+
+Error in ==> C:\MATLAB6p5\work\BEZOUT2.M
+On line 19  ==> y=solveresultant(mapleresultant('Bezout_shorthand_2_'));
+
+Error in ==> C:\MATLAB6p5\work\ejemplo7.m
+On line 10  ==> bezout2('y - x*x', ' x*x + y*y - 1', 'x', 'y')
+
+bezout2('y - x*x', ' x*x + y*y - 1', 'x', 'y')
+arturo de los angeles 1
+??? Index exceeds matrix dimensions.
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\sym.m (char2sym)
+On line 481  ==>       sk = x(s(k):e(k));
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\sym.m
+On line 91  ==>    S = char2sym(x);
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\eq.m
+On line 9  ==> B = sym(B);
+
+Error in ==> C:\MATLAB6p5\work\MAP2NUM.M
+On line 21  ==> s = find(mapin == '[') + 1;
+
+Error in ==> C:\MATLAB6p5\work\maplemapcoeff.m
+On line 31  ==>   x = map2num(maple('map','coeff',varargin{1},sym2map(varargin{2}),varargin{3}));
+
+Error in ==> C:\MATLAB6p5\work\mapledecompmatpoly.m
+On line 40  ==> zeromat = maplemapcoeff(maplematrixpolynomial,variable,0);
+
+Error in ==> C:\MATLAB6p5\work\mapleresultant.m
+On line 75  ==> f6matpoly = mapledecompmatpoly(strcat(maplevar,'[5]'), f3, f4, f10);
+
+Error in ==> C:\MATLAB6p5\work\BEZOUT2.M
+On line 19  ==> y=solveresultant(mapleresultant('Bezout_shorthand_2_'));
+
+bezout2('y - x*x', ' x*x + y*y - 1', 'x', 'y')
+arturo de los angeles 1
+??? Index exceeds matrix dimensions.
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\sym.m (char2sym)
+On line 481  ==>       sk = x(s(k):e(k));
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\sym.m
+On line 91  ==>    S = char2sym(x);
+
+Error in ==> C:\MATLAB6p5\toolbox\symbolic\@sym\eq.m
+On line 9  ==> B = sym(B);
+
+Error in ==> C:\MATLAB6p5\work\MAP2NUM.M
+On line 21  ==> s = find(mapin == '[') + 1;
+
+Error in ==> C:\MATLAB6p5\work\maplemapcoeff.m
+On line 31  ==>   x = map2num(maple('map','coeff',varargin{1},sym2map(varargin{2}),varargin{3}));
+
+Error in ==> C:\MATLAB6p5\work\mapledecompmatpoly.m
+On line 40  ==> zeromat = maplemapcoeff(maplematrixpolynomial,variable,0);
+
+Error in ==> C:\MATLAB6p5\work\mapleresultant.m
+On line 75  ==> f6matpoly = mapledecompmatpoly(strcat(maplevar,'[5]'), f3, f4, f10);
+
+Error in ==> C:\MATLAB6p5\work\BEZOUT2.M
+On line 19  ==> y=solveresultant(mapleresultant('Bezout_shorthand_2_'));
+
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+ejemplo7
+Current plot held
+
+f1 =
+
+y - x*x
+
+
+f2 =
+
+ x*x + y*y - 1
+
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+ejemplo7
+Current plot released
+
+f1 =
+
+y - x*x
+
+
+f2 =
+
+ x*x + y*y - 1
+
+
+var =
+
+x
+
+
+hiddenvar =
+
+y
+
+ejemplo7
+Current plot held
+
+f1 =
+
+y - x*x
+
+
+f2 =
+
+ x*x + y*y - 1
+
+
+var =
+
+x
+
+
+hiddenvar =
+
+y
+
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+ejemplo7
+Current plot released
+
+f1 =
+
+y - x*x
+
+
+f2 =
+
+ x*x + y*y - 1
+
+
+var =
+
+x
+
+
+hiddenvar =
+
+y
+
+ejemplo7
+Current plot held
+
+f1 =
+
+y - x*x
+
+
+f2 =
+
+ x*x + y*y - 1
+
+
+var =
+
+x
+
+
+hiddenvar =
+
+y
+
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+ejemplo7
+Current plot held
+
+f1 =
+
+y - x*x
+
+
+f2 =
+
+ x*x + y*y - 1
+
+
+var =
+
+x
+
+
+hiddenvar =
+
+y
+
+??? Undefined function or variable 'fn1'.
+
+Error in ==> C:\MATLAB6p5\work\ejemplo7.m
+On line 15  ==> maple('Bezout_shorthand_2',fn1,fn2,var,hiddenvar);
+
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+ejemplo7
+Current plot released
+
+f1 =
+
+y - x*x
+
+
+f2 =
+
+ x*x + y*y - 1
+
+
+var =
+
+x
+
+
+hiddenvar =
+
+y
+
+help maple
+
+ MAPLE String access to the Maple kernel.
+    MAPLE(STATEMENT) sends STATEMENT to the Maple kernel. 
+    STATEMENT is a string representing a syntactically valid Maple 
+    command. A semicolon for the Maple syntax is appended to STATEMENT
+    if necessary. The result is a string in Maple syntax.
+ 
+    MAPLE('function',ARG1,ARG2,..,) accepts the quoted name of any Maple
+    function and its corresponding arguments. The Maple statement is formed
+    as: function(arg1, arg2, arg3, ...), that is, commas are added between
+    the arguments. All of the input arguments must be strings that are
+    syntactically valid in Maple. The result is returned as a string in the 
+    Maple syntax.  To convert the result from a Maple string to a symbolic
+    object, use SYM.
+ 
+    [RESULT,STATUS] = MAPLE(...) returns the warning/error status.
+    When the statement execution is successful, RESULT is the result
+    and STATUS is 0. If the execution fails, RESULT is the corresponding 
+    warning/error message, and STATUS is a positive integer.
+ 
+    The statements
+       maple traceon  or  maple trace on
+    cause subsequent Maple commands and results to be printed.
+    The statements
+       maple traceoff  or  maple trace off
+    turn off this facility.
+    The statement
+       clear maplemex
+    clears the Maple workspace and reinitializes the Maple kernel.
+ 
+    MAPLE is not available for general use in the Student Version.
+ 
+    See also SYM, SYM/MAPLE
+
+ Overloaded methods
+    help sym/maple.m
+
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+help maple
+
+ MAPLE String access to the Maple kernel.
+    MAPLE(STATEMENT) sends STATEMENT to the Maple kernel. 
+    STATEMENT is a string representing a syntactically valid Maple 
+    command. A semicolon for the Maple syntax is appended to STATEMENT
+    if necessary. The result is a string in Maple syntax.
+ 
+    MAPLE('function',ARG1,ARG2,..,) accepts the quoted name of any Maple
+    function and its corresponding arguments. The Maple statement is formed
+    as: function(arg1, arg2, arg3, ...), that is, commas are added between
+    the arguments. All of the input arguments must be strings that are
+    syntactically valid in Maple. The result is returned as a string in the 
+    Maple syntax.  To convert the result from a Maple string to a symbolic
+    object, use SYM.
+ 
+    [RESULT,STATUS] = MAPLE(...) returns the warning/error status.
+    When the statement execution is successful, RESULT is the result
+    and STATUS is 0. If the execution fails, RESULT is the corresponding 
+    warning/error message, and STATUS is a positive integer.
+ 
+    The statements
+       maple traceon  or  maple trace on
+    cause subsequent Maple commands and results to be printed.
+    The statements
+       maple traceoff  or  maple trace off
+    turn off this facility.
+    The statement
+       clear maplemex
+    clears the Maple workspace and reinitializes the Maple kernel.
+ 
+    MAPLE is not available for general use in the Student Version.
+ 
+    See also SYM, SYM/MAPLE
+
+ Overloaded methods
+    help sym/maple.m
+
+ejemplo7
+??? Error: File: C:\MATLAB6p5\work\ejemplo7.m Line: 15 Column: 6
+Missing operator, comma, or semicolon.
+
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+ejemplo7
+Current plot held
+
+f1 =
+
+y - x*x
+
+
+f2 =
+
+ x*x + y*y - 1
+
+
+var =
+
+x
+
+
+hiddenvar =
+
+y
+
+
+r =
+
+vector([vector([y-x^2, x^2+y^2-1]), vector([x]), y, [[2, 1, 1, 1]], matrix([[0, y+y^2-1], [y+y^2-1, 0]]), vector([1, x]), 0, 0, 0, 0])
+
+maple
+
+ans =
+
+     ''
+
+
+help maple
+
+ MAPLE String access to the Maple kernel.
+    MAPLE(STATEMENT) sends STATEMENT to the Maple kernel. 
+    STATEMENT is a string representing a syntactically valid Maple 
+    command. A semicolon for the Maple syntax is appended to STATEMENT
+    if necessary. The result is a string in Maple syntax.
+ 
+    MAPLE('function',ARG1,ARG2,..,) accepts the quoted name of any Maple
+    function and its corresponding arguments. The Maple statement is formed
+    as: function(arg1, arg2, arg3, ...), that is, commas are added between
+    the arguments. All of the input arguments must be strings that are
+    syntactically valid in Maple. The result is returned as a string in the 
+    Maple syntax.  To convert the result from a Maple string to a symbolic
+    object, use SYM.
+ 
+    [RESULT,STATUS] = MAPLE(...) returns the warning/error status.
+    When the statement execution is successful, RESULT is the result
+    and STATUS is 0. If the execution fails, RESULT is the corresponding 
+    warning/error message, and STATUS is a positive integer.
+ 
+    The statements
+       maple traceon  or  maple trace on
+    cause subsequent Maple commands and results to be printed.
+    The statements
+       maple traceoff  or  maple trace off
+    turn off this facility.
+    The statement
+       clear maplemex
+    clears the Maple workspace and reinitializes the Maple kernel.
+ 
+    MAPLE is not available for general use in the Student Version.
+ 
+    See also SYM, SYM/MAPLE
+
+ Overloaded methods
+    help sym/maple.m
+
+fschange('C:\MATLAB6p5\work\ejemplo7.m');
+clear ejemplo7
+exit

@@ -1,0 +1,12 @@
+function p = functionp(t)
+% multiply t to make it linear in x
+syms l
+for i=1:4
+    
+p(i)= t(i)*l^(i)
+end
+
+syms h
+for i=1:4
+    
+    h=h+
